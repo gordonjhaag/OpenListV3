@@ -1,19 +1,14 @@
 {
   "name": "OpenList",
-  "author": "Chris Dzombak <http://chris.dzombak.name>",
-  "manifest_version": 2,
-  "version": "0.3.4",
-  "description": "Utilities to create and open lists of tabs.",
-  "background": {
-    "page": "background.html",
-    "persistent": false
-  },
-  "homepage_url": "https://github.com/cdzombak/OpenList",
+  "author": "Gordon Haag",
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "description": "Utilities to create and open lists of tabs. v3",
+  "homepage_url": "https://github.com/gordonjhaag/OpenListV3",
   "permissions": [
-    "contextMenus",
     "tabs"
   ],
-  "browser_action": {
+  "action": {
     "default_icon":  "icon/icon-48.png",
     "default_title": "Tab List",
     "default_popup": "popup.html"

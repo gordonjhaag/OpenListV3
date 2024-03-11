@@ -14,6 +14,9 @@ function isProbablyUrl(string) {
 	var substr = string.substring(0,7).toLowerCase();
 	if (substr == 'chrome:') return true;
 
+	var substr = string.substring(0,5).toLowerCase();
+	if (substr == 'file:') return true;
+
 	return false;
 }
 

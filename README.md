@@ -1,6 +1,13 @@
 # OpenList Chrome Extension
 
-OpenList helps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
+OpenListV3 is forked from the original OpenList by Chris Dzombak. https://github.com/cdzombak/OpenList
+
+The main changes are
+ - update to Manifest V3
+ - removal of right click context menu (may come back later, but I didn't use it and I don't have the need to maintain it)
+ - addition of ability to open file:// URLs
+
+OpenListV3 helps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
 
 With OpenList, you can:
 
@@ -12,21 +19,15 @@ The name should probably be changed to something like TabsList, but that's a lot
 
 ## Installation
 
-[Download the extension from the Chrome store](https://chrome.google.com/webstore/detail/nkpjembldfckmdchbdiclhfedcngbgnl). It's free!
+Not yet published on any stores
 
 ## Issues
 
-Please open an issue on [the GitHub issue tracker for this project](https://github.com/cdzombak/OpenList/issues).
+Please open an issue on [the GitHub issue tracker for this project](https://github.com/gordonjhaag/OpenListV3/pulls).
 
 ## History
 
-* v0.3.3: remove redundant addition of context menu item
-* v0.3.2: use Chrome event page instead of persistent background page, for reduced resource usage
-* v0.3.1: fix a bug where Open button sometimes didn't work; appearance updates.
-* v0.3: compatibility and security improvements; new icon.
-* v0.2.2 removes warning when opening many tabs; this caused problems in some cases, and Chrome handles it decently well.
-* v0.2 adds list generation capability & popup to enter a list from elsewhere; improves URL detection
-* v0.1 initial release
+* v0.1.0 Forked from the original OpenList by Chris Dzombak. https://github.com/cdzombak/OpenList
 
 ## License
 
@@ -34,7 +35,4 @@ MIT. See `LICENSE` included in this repo.
 
 ## Developer
 
-* [chris.dzombak.name](http://chris.dzombak.name/)
-* chris@chrisdzombak.net
-* [t@cdzombak](https://twitter.com/cdzombak)
-* [a@dzombak](https://alpha.app.net/dzombak)
+* gordonjhaag@gmail.com     
